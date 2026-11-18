@@ -11,7 +11,7 @@ pipeline {
 
         stage('Execute') {
             steps {
-                sh 'echo 10 | java Main'
+                sh 'echo 10 | java rithikk'
             }
         }
     }
