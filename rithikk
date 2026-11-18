@@ -1,0 +1,29 @@
+
+public class Main {
+    public static void main(String[] args) {
+
+        int math = 95;
+        int eng = 85;
+        int tam = 75;
+
+        double avg = (math + eng + tam) / 3.0;
+
+        System.out.println("Math Mark: " + math);
+        System.out.println("English Mark: " + eng);
+        System.out.println("Tamil Mark: " + tam);
+        System.out.println("Average: " + avg);
+
+        if (avg >= 90)
+            System.out.println("Grade: O");
+        else if (avg >= 80)
+            System.out.println("Grade: A+");
+        else if (avg >= 70)
+            System.out.println("Grade: A");
+        else if (avg >= 60)
+            System.out.println("Grade: B");
+        else if (avg >= 50)
+            System.out.println("Grade: C");
+        else
+            System.out.println("Grade: Fail");
+    }
+}
