@@ -5,7 +5,7 @@ pipeline {
 
         stage('Compile') {
             steps {
-                sh 'javac Main.java'
+                sh 'javac rithikk.java'
             }
         }
 
